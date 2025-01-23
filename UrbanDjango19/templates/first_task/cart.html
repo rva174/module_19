@@ -1,0 +1,11 @@
+{% extends 'first_task/menu.html' %}
+
+{{% block title %}Корзина{% endblock %}
+{% block header %}Корзина{% endblock %}
+
+{% block content %}
+    <h1>Извините, ваша корзина пуста</h1>
+    <a href="{% url 'platform' %}"><button>Вернуться назад!</button></a>
+{% endblock %}
+
+
