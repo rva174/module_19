@@ -18,7 +18,6 @@ def games(request):
 
 def cart(request):
     return render(request, 'first_task/cart.html')
-
 def sign_up_by_html(request):
     users = Buyer.objects.all()
 

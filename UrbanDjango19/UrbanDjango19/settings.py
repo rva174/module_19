@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'task1',
 ]
 
+
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',

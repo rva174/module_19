@@ -20,7 +20,6 @@ from task1.views import platform, games, cart
 from task1.views import sign_up_by_html, sign_up_by_django
 
 
-
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('platform/', platform, name='platform'),
